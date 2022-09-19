@@ -78,5 +78,6 @@ public class CalculatorTests
         yield return new object[] {5, new object[] {15, 7, 1, 1, "+", '-', '/', 3, "*", 2, 1, 1, '+', "+", "-"}};
         yield return new object[] {2, new object[] {3, 1, '-'}};
         yield return new object[] {10, new object[] {3, 2, '*', 4, '+'}};
+        yield return new object[] {3.25, new object[] {55.25, 17, '/'}};
     }
 }
